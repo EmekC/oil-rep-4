@@ -30,7 +30,7 @@ label {
 }
 
 input {
-    width: fit-content;
+    width: max-content;
     border-radius: 16px;
     height: 32px;
 }
@@ -46,6 +46,7 @@ input {
 	font-size:16px;
 	padding:16px 32px;
 	text-decoration:none;
+    margin-bottom: 26px;
 }
 #myButton:hover {
 	background:linear-gradient(to bottom, #ff055d 5%, #ff5473 100%);
@@ -60,7 +61,7 @@ input {
 	box-shadow:inset 0px 1px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
 	background-color:#ffffff;
-	border-radius:6px;
+	border-radius:26px;
 	border:1px solid #dcdcdc;
 	display:inline-block;
 	cursor:pointer;
