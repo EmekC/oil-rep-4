@@ -3,7 +3,7 @@ const before = document.getElementById("before");
 const service = document.getElementById("service");
 const after = document.getElementById("after");
 const h3 = document.getElementById("result");
-const button = document.getElementById("button");
+const button = document.getElementById("myButton");
 const resetButton = document.getElementById("reset");
 
 
