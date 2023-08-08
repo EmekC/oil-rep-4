@@ -23,7 +23,7 @@ button.addEventListener('click', function() {
     function final () {
         finalService = serviceQuan - convert();
         if (finalService > 0) {
-            h3.innerHTML = "Replenished " + finalService + " quarts" + " from cart " + cartSerial;
+            h3.innerHTML = "Replenished " + Math.round(finalService) + " quarts" + " from cart " + cartSerial;
         }
     }
 
